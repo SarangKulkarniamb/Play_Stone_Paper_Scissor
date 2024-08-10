@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img id="bgimg" src="bg.jpg" alt="">
+    <div class="main">
+        <div class="choose">
+
+            <h1>STONE.PAPER.SCISSOR</h1>
+            <span class="chosen"><h3>Choose your option</h3></span>
+            <div class="options">
+
+                <div class="rock opt" >
+                    
+                    <button id="STONE" class="btn">
+                        
+                        <video loop autoplay src="STONE.mp4"></video>
+                        
+                    </button>
+                    
+                </div>
+                <div class="paper opt">
+                    
+                    <button id="PAPER" class="btn">
+                       
+                        <video loop autoplay src="PAPER.mp4"></video>
+                        
+                    </button>
+                </div>
+                <div class="scissor opt">
+                    
+                    <button id="SCISSOR" class="btn">
+                        
+                        <video loop autoplay src="SCISSOR.mp4"></video>
+                        
+                    </button>
+                </div>
+
+            </div>
+
+            <button class="submit"> ENTER </button>
+
+        </div>
+        
+        <div class="play">
+
+           <span class="restxt"><h1>you won</h1></span> 
+
+            <div class="made-choices">
+
+                <div class="player" >
+                    <span class="player_choice_made"><h3>Your Choice</h3></span>
+                    <video  src="" loop autoplay class="player-vid"></video>
+                </div>
+                <div class="computer">
+                    <span class="computer_choice_made"><h3>Computer Choice</h3></span>
+                    <video  src="" loop autoplay class="comp-vid"></video>
+                </div>
+                
+            </div>
+
+            <button class="submit1"> PLAY AGAIN </button>
+
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
