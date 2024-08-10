@@ -15,6 +15,14 @@ buttons.forEach(function (button) {
         submitbutton.disabled = false;
     });
 });
+let stonevid = document.querySelector("#STONE");
+let papervid = document.querySelector("#PAPER");
+let scissorvid = document.querySelector("#SCISSOR");
+
+stonevid.load();
+papervid.load();
+scissorvid.load();
+
 
 submitbutton.addEventListener('click', () => {
     choice.classList.add('hide');
@@ -57,7 +65,7 @@ submitbutton.addEventListener('click', () => {
         player_vid.src = `${userchoice}.mp4`;
         comp_vid.src = `${computerChoice}.mp4`;
         //nahi hoga phir bhi chalega
-        
+
         player_vid.load();
         comp_vid.load();
         
