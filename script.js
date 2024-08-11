@@ -19,10 +19,6 @@ let stonevid = document.querySelector("#STONE");
 let papervid = document.querySelector("#PAPER");
 let scissorvid = document.querySelector("#SCISSOR");
 
-stonevid.load();
-papervid.load();
-scissorvid.load();
-
 
 submitbutton.addEventListener('click', () => {
     choice.classList.add('hide');
