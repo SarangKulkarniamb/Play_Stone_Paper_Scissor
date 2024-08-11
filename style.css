@@ -23,7 +23,7 @@
 .choose{
     background-color: rgba(0, 0, 0, 0.071);
     height:80vmin;
-    width:120vmin;
+    width:130vmin;
     backdrop-filter: blur(6px);
     border-radius:25px ;
     display: flex;
